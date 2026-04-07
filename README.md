@@ -22,10 +22,10 @@ Output: The insights are displayed on the frontend, providing a clear and action
 ## Getting Started
 
 ### Prerequisites
-PHP 8.4
-Composer
-Node.js
-Redis
+- PHP 8.4
+- Composer
+- Node.js
+- Redis
 
 ### Navigate to base directory
 - Navigate to ChessCoachAI folder if not already there
@@ -59,3 +59,6 @@ Update GEMINI_API_KEY in .env file
 Open the application in your browser at http://localhost:8000.
 Upload a PGN file and specify your side (white or black).
 View the analysis and insights provided by the application.
+
+<img width="927" height="978" alt="image" src="https://github.com/user-attachments/assets/07601a28-b4a8-42bc-bcdb-fad8c455a25f" />
+
