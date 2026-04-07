@@ -1,0 +1,5 @@
+.DS_Store
+.vscode/
+# If sharing specific settings:
+!.vscode/extensions.json
+!.vscode/launch.json
