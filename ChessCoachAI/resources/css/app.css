@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=IBM+Plex+Mono:wght@300;400;500&display=swap');
+
+:root {
+  /* Main Surfaces - Warm off-whites for less eye strain */
+  --bg:       #fdfbf7; 
+  --surface:  #ffffff;
+  --border:   #e5e0d5;
+  
+  /* Accents - Darkened slightly for better contrast on light bg */
+  --accent:   #8a6d3b; 
+  --accent2:  #634f2a;
+  
+  /* Text - Deep charcoal/sepia for readability */
+  --text:     #1a1a18;
+  --muted:    #6b665e;
+  
+  /* Semantic Colors - High contrast versions */
+  --pro:      #1b5e20; /* Deep Green */
+  --con:      #b71c1c; /* Deep Red */
+  --str:      #0d47a1; /* Deep Blue */
+  --wk:       #a0522d; /* Sienna/Brown */
+  
+  --radius:   6px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'IBM Plex Mono', monospace;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+/* Scrollbar styling for Light Mode */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { 
+  background: var(--border); 
+  border-radius: 10px; 
+  border: 2px solid var(--bg);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--muted); }
