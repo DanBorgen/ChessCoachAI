@@ -1,6 +1,8 @@
 # ChessCoachAI
 ChessCoachAI is a web application designed to help chess players analyze their games and improve their skills. By providing a PGN (Portable Game Notation) of a chess game and specifying whether you played as white or black, the application offers detailed insights into your gameplay. It highlights your strengths, identifies areas for improvement, and provides actionable advice to help you become a better chess player.
 
+<img width="927" height="978" alt="image" src="https://github.com/user-attachments/assets/07601a28-b4a8-42bc-bcdb-fad8c455a25f" />
+
 ## Tech Stack
 ### Frontend
 Vue.js: The frontend is built using Vue.js, a progressive JavaScript framework for building user interfaces. It provides a seamless and interactive user experience.
@@ -64,6 +66,4 @@ Update GEMINI_API_KEY in .env file
 Open the application in your browser at http://localhost:8000.
 Upload a PGN file and specify your side (white or black).
 View the analysis and insights provided by the application.
-
-<img width="927" height="978" alt="image" src="https://github.com/user-attachments/assets/07601a28-b4a8-42bc-bcdb-fad8c455a25f" />
 
